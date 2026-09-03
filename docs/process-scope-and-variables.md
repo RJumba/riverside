@@ -1,4 +1,4 @@
-Riverside Hospital Process Scope
+# Riverside Hospital Process Scope
 
 ## Process Start
 GP referral is received by the Riverside Hospital specialist unit.
@@ -10,7 +10,7 @@ The final outcome is communicated to both the patient and the GP.
 
 
 
-Actors / Participants
+# Actors / Participants
 
 - GP Practice
 - Patient
@@ -23,9 +23,8 @@ Actors / Participants
 
 
 
+## High-Level Process
 
-
-So before I start the process of drawing my very own bpmn i have to take note of the processes that are happening in the hospital. The processes that are happening in the hospital are as follows:
 
 1. GP sends a referral to Riverside Hospital.
 2. The hospital receives the referral.
@@ -43,7 +42,7 @@ So before I start the process of drawing my very own bpmn i have to take note of
 
 
 
-The following are the main decisions that should be considered in the process:
+## Main Process Decisions
 
 - Is the referral complete?
 - What is the consultation outcome?
@@ -55,7 +54,9 @@ The following are the main decisions that should be considered in the process:
 
 
 
-The process variables that would be required throughout the process are as follows:
+## Process Variables
+
+### Referral Information
 
 patientName
 nhsNumber
@@ -85,3 +86,23 @@ draftPatientLetter
 draftGPLetter
 letterApproved
 letterSent
+
+## Human Activities
+
+- Receive and record referral
+- Review missing referral information
+- Request clarification from GP Practice
+- Schedule consultation
+- Record consultation notes
+- Record consultation outcome
+- Perform laboratory tests
+- Review laboratory results
+- Review final communication
+- Confirm communication has been sent
+
+
+## Candidate Automated Activities
+
+- Check referral information for completeness
+- Generate appointment reference
+- Generate draft outcome communication
