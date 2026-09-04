@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="nH2SEu7LS5aGBvxTE2K1">
-    <mxGraphModel dx="3775" dy="2538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4175" dy="3338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,7 +259,7 @@
           <mxGeometry height="80" width="150" x="300" y="600" as="geometry" />
         </mxCell>
         <mxCell id="KBMs5slSKaOa2vEevGSd-57" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="ENTER / CONFIRM APPOINTMENT DETAILS" vertex="1">
-          <mxGeometry height="120" width="180" x="565" y="710" as="geometry" />
+          <mxGeometry height="120" width="180" x="700" y="710" as="geometry" />
         </mxCell>
         <mxCell id="KBMs5slSKaOa2vEevGSd-58" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=20;" value="PATIENT INFORMED OF APPOINTMENT" vertex="1">
           <mxGeometry height="100" width="200" x="-450" y="410" as="geometry" />
@@ -297,7 +297,6 @@
         <mxCell id="KBMs5slSKaOa2vEevGSd-66" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-57" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-64" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="660" y="610" />
               <mxPoint x="700" y="550" />
             </Array>
             <mxPoint x="260" y="610" as="sourcePoint" />
@@ -384,6 +383,264 @@
           <mxGeometry relative="1" x="0.839" as="geometry">
             <mxPoint x="1" y="10" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-79" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;dashed=1;dashPattern=12 12;fontSize=22;verticalAlign=top;" value="GP PRACTICE" vertex="1">
+          <mxGeometry height="700" width="700" x="-1350" y="-1990" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="COMPLETE REFERRAL INFORMATION" vertex="1">
+          <mxGeometry height="120" width="220" x="-980" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-81" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-19" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KBMs5slSKaOa2vEevGSd-80" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-360" y="-350" as="sourcePoint" />
+            <mxPoint x="-310" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="CLARIFICATION OF INFORMATION" vertex="1">
+          <mxGeometry height="120" width="220" x="-600" y="-1280" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-83" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-21" style="curved=1;endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endFill=0;" target="KBMs5slSKaOa2vEevGSd-82" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="-90" />
+              <mxPoint x="280" y="-480" />
+              <mxPoint x="-40" y="-890" />
+            </Array>
+            <mxPoint x="60" y="-440" as="sourcePoint" />
+            <mxPoint x="110" y="-490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-84" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;dashed=1;dashPattern=8 8;fontSize=22;verticalAlign=top;" value="SPECIALIST DOCTOR" vertex="1">
+          <mxGeometry height="2010" width="2010" x="2400" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="ACCEPTED REFERRAL AND SCHEDULED CONSULTATION" vertex="1">
+          <mxGeometry height="150" width="260" x="1980" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-86" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-87" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;" target="KBMs5slSKaOa2vEevGSd-85" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1670" y="-480" />
+            </Array>
+            <mxPoint x="1270" y="340" as="sourcePoint" />
+            <mxPoint x="1320" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-88" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-41" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;" target="KBMs5slSKaOa2vEevGSd-87" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="-830" />
+            </Array>
+            <mxPoint x="586" y="-263" as="sourcePoint" />
+            <mxPoint x="1880" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-87" parent="1" style="shape=offPageConnector;whiteSpace=wrap;html=1;rotation=100;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="1220" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-90" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;dashed=1;dashPattern=8 8;fontSize=22;verticalAlign=top;" value="WORKFLOW AUTOMATION SYSTEM" vertex="1">
+          <mxGeometry height="350" width="350" x="1835" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-92" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=20;" value="CONSISTENT REFERRAL PROCESSING" vertex="1">
+          <mxGeometry height="210" width="240" x="1480" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-93" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontSize=20;verticalAlign=top;" value="PATIENT" vertex="1">
+          <mxGeometry height="580" width="580" x="2830" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="PATIENT AVAILABILITY" vertex="1">
+          <mxGeometry height="90" width="190" x="1110" y="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-95" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=20;" value="CONSULTATION APPOINTMENT" vertex="1">
+          <mxGeometry height="100" width="190" x="1250" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-96" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=20;" value="TIMELY APPOINTMENT SCHEDULING" vertex="1">
+          <mxGeometry height="170" width="200" x="1080" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-97" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-98" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=0;strokeWidth=2;" target="KBMs5slSKaOa2vEevGSd-94" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="1680" />
+            </Array>
+            <mxPoint x="60" y="1060" as="sourcePoint" />
+            <mxPoint x="110" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-99" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-50" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=0;strokeWidth=2;" target="KBMs5slSKaOa2vEevGSd-98" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="870" />
+            </Array>
+            <mxPoint x="640" y="290" as="sourcePoint" />
+            <mxPoint x="1200" y="1645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-98" parent="1" style="shape=offPageConnector;whiteSpace=wrap;html=1;rotation=-30;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="700" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-104" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-95" style="curved=1;endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;endFill=0;" target="KBMs5slSKaOa2vEevGSd-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="620" />
+              <mxPoint x="1410" y="420" />
+              <mxPoint x="1350" y="100" />
+              <mxPoint x="1120" y="-470" />
+            </Array>
+            <mxPoint x="1860" y="880" as="sourcePoint" />
+            <mxPoint x="1290" y="-369.1428920200893" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-105" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-96" style="curved=1;endArrow=none;html=1;rounded=0;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;endFill=0;" target="KBMs5slSKaOa2vEevGSd-68" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1730" />
+              <mxPoint x="60" y="1010" />
+            </Array>
+            <mxPoint x="140" y="1260" as="sourcePoint" />
+            <mxPoint x="190" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-106" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=20;" value="APPROPRIATE CLINICAL DECISION REACHED" vertex="1">
+          <mxGeometry height="120" width="210" x="3210" y="-300" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-107" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="DETERMINE CLINICAL OUTCOME" vertex="1">
+          <mxGeometry height="110" width="200" x="3215" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-108" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=20;" value="PATIENT CLINICALLY ASSESSED" vertex="1">
+          <mxGeometry height="100" width="180" x="3225" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-109" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="REVIEW ACCEPTED REFERRAL" vertex="1">
+          <mxGeometry height="90" width="165" x="3230" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-110" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="CONDUCT SPECIALIST CONSULTATION" vertex="1">
+          <mxGeometry height="90" width="200" x="2960" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-111" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="RECORD CONSULTATION NOTES" vertex="1">
+          <mxGeometry height="90" width="180" x="3515" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-112" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=20;" value="LABORATORY EVIDENCE REVIEWED" vertex="1">
+          <mxGeometry height="120" width="200" x="2622.5" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-113" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="REQUEST LABORATORY TEST" vertex="1">
+          <mxGeometry height="110" width="200" x="3830" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-115" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="REVIEW LABORATORY RESULT" vertex="1">
+          <mxGeometry height="110" width="180" x="2632.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-116" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="CONFIRM FINAL DECISION" vertex="1">
+          <mxGeometry height="100" width="165" x="2870" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-119" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="PERFORM SPECIALIST ASSESSENT" vertex="1">
+          <mxGeometry height="90" width="165" x="3232.5" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-120" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-119" style="endArrow=open;html=1;rounded=0;exitX=0.534;exitY=0.263;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;endSize=23;endFill=0;" target="KBMs5slSKaOa2vEevGSd-108" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3100" y="140" as="sourcePoint" />
+            <mxPoint x="3150" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-121" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-110" style="curved=1;endArrow=ERone;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.375;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;endSize=23;" target="KBMs5slSKaOa2vEevGSd-119" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="3020" y="550" />
+            </Array>
+            <mxPoint x="3100" y="730" as="sourcePoint" />
+            <mxPoint x="3150" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-122" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-111" style="curved=1;endArrow=ERone;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-119" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="3630" y="610" />
+              <mxPoint x="3480" y="570" />
+            </Array>
+            <mxPoint x="3120" y="560" as="sourcePoint" />
+            <mxPoint x="3170" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-123" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-109" style="endArrow=ERone;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;endSize=23;strokeWidth=2;" target="KBMs5slSKaOa2vEevGSd-119" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3120" y="560" as="sourcePoint" />
+            <mxPoint x="3170" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-124" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-107" style="endArrow=open;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-106" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3310" y="210" as="sourcePoint" />
+            <mxPoint x="3360" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-125" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-108" style="endArrow=ERone;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-107" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3310" y="210" as="sourcePoint" />
+            <mxPoint x="3360" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="CONSULTATION NOTES" vertex="1">
+          <mxGeometry height="80" width="165" x="3770" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-127" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-111" style="curved=1;endArrow=ERone;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=0;strokeWidth=2;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-126" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="3700" y="990" />
+              <mxPoint x="3840" y="940" />
+            </Array>
+            <mxPoint x="3310" y="720" as="sourcePoint" />
+            <mxPoint x="3360" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-128" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-126" style="curved=1;endArrow=ERone;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;strokeWidth=2;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-107" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="3750" y="510" />
+              <mxPoint x="3570" y="60" />
+            </Array>
+            <mxPoint x="3310" y="720" as="sourcePoint" />
+            <mxPoint x="3360" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="CLINICAL OUTCOME" vertex="1">
+          <mxGeometry height="80" width="140" x="3510" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-130" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=20;" value="REQUIRED LABORATORY INVESTIGATION INITIATED" vertex="1">
+          <mxGeometry height="120" width="220" x="4050" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-131" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-113" style="endArrow=open;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.625;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-130" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3310" y="430" as="sourcePoint" />
+            <mxPoint x="3360" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="LABORATORY TEST REQUEST" vertex="1">
+          <mxGeometry height="80" width="150" x="3700" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="LABORATORY RESULTS" vertex="1">
+          <mxGeometry height="65" width="165" x="2640" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-136" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-134" style="endArrow=open;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-115" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3990" y="570" as="sourcePoint" />
+            <mxPoint x="4040" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-137" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-115" style="endArrow=open;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-112" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3650" y="190" as="sourcePoint" />
+            <mxPoint x="3700" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-139" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-112" style="endArrow=open;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-116" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3050" y="140" as="sourcePoint" />
+            <mxPoint x="3100" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-140" edge="1" parent="1" source="KBMs5slSKaOa2vEevGSd-116" style="endArrow=open;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="KBMs5slSKaOa2vEevGSd-106" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3050" y="140" as="sourcePoint" />
+            <mxPoint x="3100" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBMs5slSKaOa2vEevGSd-141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="COMPLETED CLINICAL OUTCOME" vertex="1">
+          <mxGeometry height="90" width="165" x="3030" y="-440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
