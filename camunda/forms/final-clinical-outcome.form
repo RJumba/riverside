@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "label": "Final Clinical Outcome Summary",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_14gkd27",
+        "columns": null
+      },
+      "id": "Field_16y23zh",
+      "key": "finalClinicalOutcomeSummary",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Final Outcome Type",
+      "values": [
+        {
+          "label": "Discharge back to GP",
+          "value": "discharge"
+        },
+        {
+          "label": "Follow-up Consultation",
+          "value": "followUp"
+        },
+        {
+          "label": "Treatment Appointment",
+          "value": "treatment"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1075o6p",
+        "columns": null
+      },
+      "id": "Field_0t0o2g7",
+      "key": "finalOutcomeType",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Clinical Advice ",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1xyxyrs",
+        "columns": null
+      },
+      "id": "Field_16ymczj",
+      "key": "clinicalPlan",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Follow-up Requirements",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0a3ye6v",
+        "columns": null
+      },
+      "id": "Field_0yl9od7",
+      "key": "followUpRequirements",
+      "conditional": {
+        "hide": "== finalOutcomeType = \"followUp\""
+      }
+    },
+    {
+      "label": "Treatment Plan",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0se7khb",
+        "columns": null
+      },
+      "id": "Field_1ery0aj",
+      "key": "treatmentPlan",
+      "conditional": {
+        "hide": "== finalOutcomeType = \"treatment\""
+      }
+    },
+    {
+      "label": "Discharge Advice to GP",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0se7khb",
+        "columns": null
+      },
+      "id": "Field_1t58bxw",
+      "key": "dischargeAdvice",
+      "conditional": {
+        "hide": "== finalOutcomeType = \"discharge\""
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1fud001",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

@@ -137,17 +137,22 @@
     <bpmn:userTask id="Activity_1ob99pa" name="SCHEDULE LABORATORY APPOINTMENT">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_19g8dlv" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_10a8tnc</bpmn:incoming>
       <bpmn:outgoing>Flow_1ovi4jt</bpmn:outgoing>
     </bpmn:userTask>
     <bpmn:serviceTask id="Activity_07xn8h5" name="GENERATE LAB APPOINTMENT REFERENCE &#38; CONFIRMATION">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="generate-lab-appointment-reference" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1ovi4jt</bpmn:incoming>
       <bpmn:outgoing>Flow_01jz4vp</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:userTask id="Activity_0wn0wpm" name="CONFIRM FINAL CLINICAL OUTCOME">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_1fud001" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_1jtl513</bpmn:incoming>
       <bpmn:incoming>Flow_0osjnkz</bpmn:incoming>
@@ -170,6 +175,9 @@
       <bpmn:outgoing>Flow_09pgzmn</bpmn:outgoing>
     </bpmn:userTask>
     <bpmn:serviceTask id="Activity_0jmr4ij" name="NOTIFY SPECIALIST RESULTS AVAILABLE">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="notify-specialist-results-available" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1gdi8vm</bpmn:incoming>
       <bpmn:outgoing>Flow_04jxyp7</bpmn:outgoing>
     </bpmn:serviceTask>
@@ -183,6 +191,7 @@
     <bpmn:userTask id="Activity_112y8m7" name="REVIEW LABORATORY RESULTS">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form89Gijuh" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_04jxyp7</bpmn:incoming>
       <bpmn:outgoing>Flow_0osjnkz</bpmn:outgoing>
@@ -196,6 +205,7 @@
     <bpmn:userTask id="Activity_0xsco0f" name="UPLOAD LABORATORY RESULTS">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_0y61act" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_0a8rop0</bpmn:incoming>
       <bpmn:outgoing>Flow_1gdi8vm</bpmn:outgoing>
@@ -203,6 +213,7 @@
     <bpmn:userTask id="Activity_16zjpz5" name="SCHEDULE FOLLOW-UP CONSULTATION">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_0jzd2s5" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_1th2ajg</bpmn:incoming>
       <bpmn:outgoing>Flow_1306r99</bpmn:outgoing>
@@ -210,6 +221,7 @@
     <bpmn:userTask id="Activity_0i076yc" name="SCHEDULE TREATMENT APPOINTMENT">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_0jzd2s5" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_19f467e</bpmn:incoming>
       <bpmn:outgoing>Flow_0ews3ze</bpmn:outgoing>
@@ -226,6 +238,7 @@
     <bpmn:userTask id="Activity_091v5se" name="INFORM PATIENT OF NEXT APPOINTMENT">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_184ckaq" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_05vq0pn</bpmn:incoming>
       <bpmn:outgoing>Flow_11cq1k6</bpmn:outgoing>
@@ -294,9 +307,15 @@
     <bpmn:sequenceFlow id="Flow_04jxyp7" sourceRef="Activity_0jmr4ij" targetRef="Activity_112y8m7" />
     <bpmn:sequenceFlow id="Flow_18c737r" sourceRef="Activity_0k3hyho" targetRef="Activity_17si6k2" />
     <bpmn:sequenceFlow id="Flow_0a8rop0" sourceRef="Activity_17si6k2" targetRef="Activity_0xsco0f" />
-    <bpmn:sequenceFlow id="Flow_1th2ajg" name="FOLLOW UP" sourceRef="Gateway_0oukj9u" targetRef="Activity_16zjpz5" />
-    <bpmn:sequenceFlow id="Flow_19f467e" name="TREATMENT" sourceRef="Gateway_0oukj9u" targetRef="Activity_0i076yc" />
-    <bpmn:sequenceFlow id="Flow_12zwpgr" name="DISCHARGE" sourceRef="Gateway_0oukj9u" targetRef="Gateway_1thbe9v" />
+    <bpmn:sequenceFlow id="Flow_1th2ajg" name="FOLLOW UP" sourceRef="Gateway_0oukj9u" targetRef="Activity_16zjpz5">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== finalOutcomeType = "followUp"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_19f467e" name="TREATMENT" sourceRef="Gateway_0oukj9u" targetRef="Activity_0i076yc">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== finalOutcomeType = "treatment"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_12zwpgr" name="DISCHARGE" sourceRef="Gateway_0oukj9u" targetRef="Gateway_1thbe9v">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== finalOutcomeType = "discharge"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_1306r99" sourceRef="Activity_16zjpz5" targetRef="Gateway_0b2hqkt" />
     <bpmn:sequenceFlow id="Flow_0ews3ze" sourceRef="Activity_0i076yc" targetRef="Gateway_0b2hqkt" />
     <bpmn:sequenceFlow id="Flow_13bbged" sourceRef="Gateway_0b2hqkt" targetRef="Activity_05me0we" />

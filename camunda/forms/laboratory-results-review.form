@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "text": "== laboratoryTestType",
+      "type": "text",
+      "layout": {
+        "row": "Row_0wy3k0c",
+        "columns": null
+      },
+      "id": "Field_0dj5ks2"
+    },
+    {
+      "text": "== laboratoryResultDate",
+      "type": "text",
+      "layout": {
+        "row": "Row_06zse3i",
+        "columns": null
+      },
+      "id": "Field_0b5eby8"
+    },
+    {
+      "text": "== laboratoryResult",
+      "type": "text",
+      "layout": {
+        "row": "Row_1qxk34m",
+        "columns": null
+      },
+      "id": "Field_1e0nvyp"
+    },
+    {
+      "label": "Specialist Review Notes",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_07jubwa",
+        "columns": null
+      },
+      "id": "Field_1jwm6ji",
+      "key": "laboratoryReviewNotes",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form89Gijuh",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

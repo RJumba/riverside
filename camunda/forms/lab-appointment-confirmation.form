@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "text": "# Laboratory Appointment Confirmation Form",
+      "type": "text",
+      "layout": {
+        "row": "Row_1uuvd7k",
+        "columns": null
+      },
+      "id": "Field_1jmacv0"
+    },
+    {
+      "text": "# Laboratory Appointment Reference",
+      "type": "text",
+      "layout": {
+        "row": "Row_13hbmlm",
+        "columns": null
+      },
+      "id": "Field_09n5igl"
+    },
+    {
+      "text": "== labAppointmentReference",
+      "type": "text",
+      "layout": {
+        "row": "Row_1dg5wer",
+        "columns": null
+      },
+      "id": "Field_0yn9821"
+    },
+    {
+      "text": "== labAppointmentDate",
+      "type": "text",
+      "layout": {
+        "row": "Row_0m58l3p",
+        "columns": null
+      },
+      "id": "Field_1mhggpt"
+    },
+    {
+      "text": "== labAppointmentTime",
+      "type": "text",
+      "layout": {
+        "row": "Row_19ratok",
+        "columns": null
+      },
+      "id": "Field_08k6tyr"
+    },
+    {
+      "text": "== laboratoryTestType",
+      "type": "text",
+      "layout": {
+        "row": "Row_0ys83uu",
+        "columns": null
+      },
+      "id": "Field_0or5jse"
+    },
+    {
+      "text": "== labAppointmentConfirmation",
+      "type": "text",
+      "layout": {
+        "row": "Row_1s3o3ao",
+        "columns": null
+      },
+      "id": "Field_1iklbbo"
+    }
+  ],
+  "type": "default",
+  "id": "Form_184ckaq",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

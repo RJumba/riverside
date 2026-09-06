@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "text": "== laboratoryTestType",
+      "type": "text",
+      "layout": {
+        "row": "Row_0v6nm6a",
+        "columns": null
+      },
+      "id": "Field_02tlesq"
+    },
+    {
+      "text": "== labAppointmentReference",
+      "type": "text",
+      "layout": {
+        "row": "Row_0v6nm6a",
+        "columns": null
+      },
+      "id": "Field_10fidhg"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Laboratory Result Date",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0v6nm6a",
+        "columns": null
+      },
+      "id": "Field_1tjsozr",
+      "key": "laboratoryResultDate",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Laboratory Result / Findings",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0jnsfj5",
+        "columns": null
+      },
+      "id": "Field_1ldjyvt",
+      "key": "laboratoryResult",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0y61act",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

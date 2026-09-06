@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "text": "# Laboratory Appointment Form",
+      "type": "text",
+      "layout": {
+        "row": "Row_0fi0wcy",
+        "columns": null
+      },
+      "id": "Field_0r5j25p"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Laboratory Appointment Date",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0fi0wcy",
+        "columns": null
+      },
+      "id": "Field_1idtdoy",
+      "key": "labAppointmentDate",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Laboratory Appointment Time",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0e1goeg",
+        "columns": null
+      },
+      "id": "Field_1b857wl",
+      "key": "labAppointmentTime",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "text": "== laboratoryTestType",
+      "type": "text",
+      "layout": {
+        "row": "Row_1y3exx7",
+        "columns": null
+      },
+      "id": "Field_0qgxpaz"
+    }
+  ],
+  "type": "default",
+  "id": "Form_19g8dlv",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "text": "# Riverside Hospital – Next Appointment",
+      "type": "text",
+      "layout": {
+        "row": "Row_0i0brot",
+        "columns": null
+      },
+      "id": "Field_032eejp"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Appointment Date",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1etpdqa",
+        "columns": null
+      },
+      "id": "Field_1a38557",
+      "key": "nextAppointmentDate",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Appointment Time",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0o9uumo",
+        "columns": null
+      },
+      "id": "Field_1jkt8zg",
+      "key": "nextAppointmentTime",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Appointment Notes",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_14crz0r",
+        "columns": null
+      },
+      "id": "Field_1wz2az3",
+      "key": "nextAppointmentNotes"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0jzd2s5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}
