@@ -279,6 +279,7 @@
     <bpmn:userTask id="Activity_10h41ku" name="SEND FINAL OUTCOME TO PATIENT AND GP">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_1b9wh9h" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_1jir8cc</bpmn:incoming>
       <bpmn:outgoing>Flow_0b2kibs</bpmn:outgoing>

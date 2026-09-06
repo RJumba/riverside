@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "text": "# Riverside Hospital – Final Outcome Communication",
+      "type": "text",
+      "layout": {
+        "row": "Row_0bg8ct8",
+        "columns": null
+      },
+      "id": "Field_0e5wa3t"
+    },
+    {
+      "text": "== patientName",
+      "type": "text",
+      "layout": {
+        "row": "Row_1db0u3v",
+        "columns": null
+      },
+      "id": "Field_0fgm1ws"
+    },
+    {
+      "text": "# Final Patient Communication",
+      "type": "text",
+      "layout": {
+        "row": "Row_124n1i4",
+        "columns": null
+      },
+      "id": "Field_179v3co"
+    },
+    {
+      "text": "== finalPatientOutcomeCommunication",
+      "type": "text",
+      "layout": {
+        "row": "Row_124n1i4",
+        "columns": null
+      },
+      "id": "Field_10rit3u"
+    },
+    {
+      "text": "# GP Practice",
+      "type": "text",
+      "layout": {
+        "row": "Row_0ty1vyl",
+        "columns": null
+      },
+      "id": "Field_0cfh7kv"
+    },
+    {
+      "text": "== gpPractice",
+      "type": "text",
+      "layout": {
+        "row": "Row_0svs6iq",
+        "columns": null
+      },
+      "id": "Field_1b2g85o"
+    },
+    {
+      "text": "# Referring GP",
+      "type": "text",
+      "layout": {
+        "row": "Row_0svs6iq",
+        "columns": null
+      },
+      "id": "Field_0bx6i1h"
+    },
+    {
+      "text": "== referringGP",
+      "type": "text",
+      "layout": {
+        "row": "Row_0or2o6e",
+        "columns": null
+      },
+      "id": "Field_0zfjhyr"
+    },
+    {
+      "text": "# Final GP Communication",
+      "type": "text",
+      "layout": {
+        "row": "Row_1wa80tc",
+        "columns": null
+      },
+      "id": "Field_1beqjil"
+    },
+    {
+      "text": "== finalGPOutcomeCommunication",
+      "type": "text",
+      "layout": {
+        "row": "Row_0z38slu",
+        "columns": null
+      },
+      "id": "Field_1mteca2"
+    },
+    {
+      "label": "I confirm that the final outcome communication has been sent to both the Patient and GP",
+      "values": [
+        {
+          "label": "Confirm",
+          "value": "value"
+        }
+      ],
+      "type": "checklist",
+      "layout": {
+        "row": "Row_0t235fa",
+        "columns": null
+      },
+      "id": "Field_00ahtau",
+      "key": "outcomeCommunicationConfirmed",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1b9wh9h",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}
