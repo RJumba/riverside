@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "text": "# Riverside Hospital – Referral Clarification",
+      "type": "text",
+      "layout": {
+        "row": "Row_1y9xqmr",
+        "columns": null
+      },
+      "id": "Field_1rbawtv"
+    },
+    {
+      "text": "# The workflow identified the following missing referral information:",
+      "type": "text",
+      "layout": {
+        "row": "Row_1do5eco",
+        "columns": null
+      },
+      "id": "Field_1ofyn44"
+    },
+    {
+      "text": "== string join(missingFields, \", \")",
+      "type": "text",
+      "layout": {
+        "row": "Row_1yln2cy",
+        "columns": null
+      },
+      "id": "Field_0m6t38w"
+    },
+    {
+      "label": "Clarification Request",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0f93d2k",
+        "columns": null
+      },
+      "id": "Field_0cjz7mo",
+      "key": "clarificationRequest",
+      "disabled": false,
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0qbwjbn",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

@@ -107,6 +107,7 @@
     <bpmn:userTask id="Activity_0cgqjuf" name="REQUEST REFERRAL CLARIFICATION">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_0qbwjbn" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_00jqayh</bpmn:incoming>
       <bpmn:outgoing>Flow_1kilrd2</bpmn:outgoing>
