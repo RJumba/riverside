@@ -227,6 +227,9 @@
       <bpmn:outgoing>Flow_0ews3ze</bpmn:outgoing>
     </bpmn:userTask>
     <bpmn:serviceTask id="Activity_05me0we" name="GENERATE APPOINTMENT REFERENCE &#38; CONFIRMATION">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="generate-appointment-reference" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_13bbged</bpmn:incoming>
       <bpmn:outgoing>Flow_05vq0pn</bpmn:outgoing>
     </bpmn:serviceTask>
@@ -259,12 +262,16 @@
       <bpmn:outgoing>Flow_18c737r</bpmn:outgoing>
     </bpmn:userTask>
     <bpmn:serviceTask id="Activity_09qentp" name="GENERATE DRAFT OUTCOME LETTER">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="generate-draft-outcome-letter" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_189juck</bpmn:incoming>
       <bpmn:outgoing>Flow_0k2r42j</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:userTask id="Activity_17a6emj" name="REVIEW / FINALISE OUTCOME COMMUNICATION">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_1wqtxod" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_0k2r42j</bpmn:incoming>
       <bpmn:outgoing>Flow_1jir8cc</bpmn:outgoing>
