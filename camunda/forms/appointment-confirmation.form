@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "text": "# Appointment Confirmation",
+      "type": "text",
+      "layout": {
+        "row": "Row_12cwkrv",
+        "columns": null
+      },
+      "id": "Field_1xcdyyd"
+    },
+    {
+      "text": "# Appointment Reference",
+      "type": "text",
+      "layout": {
+        "row": "Row_09kboqp",
+        "columns": null
+      },
+      "id": "Field_16i3bd5"
+    },
+    {
+      "text": "== appointmentReference",
+      "type": "text",
+      "layout": {
+        "row": "Row_0t7ybsi",
+        "columns": null
+      },
+      "id": "Field_10hsm2y"
+    },
+    {
+      "text": "# Confirmation Message",
+      "type": "text",
+      "layout": {
+        "row": "Row_09umbma",
+        "columns": null
+      },
+      "id": "Field_0x1472k"
+    },
+    {
+      "text": "== appointmentConfirmation",
+      "type": "text",
+      "layout": {
+        "row": "Row_1g7xvzz",
+        "columns": null
+      },
+      "id": "Field_1seln0q"
+    },
+    {
+      "text": "== consultationDate",
+      "type": "text",
+      "layout": {
+        "row": "Row_1g7xvzz",
+        "columns": null
+      },
+      "id": "Field_0kjvqcy"
+    },
+    {
+      "text": "== consultationTime",
+      "type": "text",
+      "layout": {
+        "row": "Row_1g7xvzz",
+        "columns": null
+      },
+      "id": "Field_0983faa"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0erqs79",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

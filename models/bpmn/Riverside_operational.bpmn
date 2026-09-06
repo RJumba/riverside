@@ -113,6 +113,9 @@
       <bpmn:outgoing>Flow_1kilrd2</bpmn:outgoing>
     </bpmn:userTask>
     <bpmn:serviceTask id="Activity_1mcmmf7" name="GENERATE APPOINTMENT REFERENCE &#38; CONFIRMATION">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="generate-appointment-reference" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0p6q5fv</bpmn:incoming>
       <bpmn:outgoing>Flow_1dumi6h</bpmn:outgoing>
     </bpmn:serviceTask>
@@ -126,6 +129,7 @@
     <bpmn:userTask id="Activity_0dfywoa" name="RECORD CONSULTATION NOTES &#38; OUTCOME">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_1r1z2kt" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_0xpoycb</bpmn:incoming>
       <bpmn:outgoing>Flow_0dtb5md</bpmn:outgoing>
@@ -149,9 +153,10 @@
       <bpmn:incoming>Flow_0osjnkz</bpmn:incoming>
       <bpmn:outgoing>Flow_0c9pwmi</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:userTask id="Activity_0tipmjt" name="SCHEDULE &#38; CONFIRM INITIAL CONSULTATION">
+    <bpmn:userTask id="Activity_0tipmjt" name="SCHEDULE / CONFIRM INITIAL CONSULTATION">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_1eu0o2h" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_1qqmaq3</bpmn:incoming>
       <bpmn:outgoing>Flow_0p6q5fv</bpmn:outgoing>
@@ -159,6 +164,7 @@
     <bpmn:userTask id="Activity_1gciv3s" name="INFORM PATIENT OF APPOINTMENT">
       <bpmn:extensionElements>
         <zeebe:userTask />
+        <zeebe:formDefinition formId="Form_0erqs79" />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_1dumi6h</bpmn:incoming>
       <bpmn:outgoing>Flow_09pgzmn</bpmn:outgoing>
@@ -259,8 +265,12 @@
     </bpmn:userTask>
     <bpmn:sequenceFlow id="Flow_0e8zqgu" sourceRef="Event_0laecq1" targetRef="Activity_18c6aku" />
     <bpmn:sequenceFlow id="Flow_0dtb5md" sourceRef="Activity_0dfywoa" targetRef="Gateway_1rv8n4w" />
-    <bpmn:sequenceFlow id="Flow_1jtl513" name="NO" sourceRef="Gateway_1rv8n4w" targetRef="Activity_0wn0wpm" />
-    <bpmn:sequenceFlow id="Flow_10a8tnc" name="YES" sourceRef="Gateway_1rv8n4w" targetRef="Activity_1ob99pa" />
+    <bpmn:sequenceFlow id="Flow_1jtl513" name="NO" sourceRef="Gateway_1rv8n4w" targetRef="Activity_0wn0wpm">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== labRequired = false</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_10a8tnc" name="YES" sourceRef="Gateway_1rv8n4w" targetRef="Activity_1ob99pa">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== labRequired = true</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_0vei9dm" sourceRef="Activity_18c6aku" targetRef="Activity_0zfcl56" />
     <bpmn:sequenceFlow id="Flow_0nrqgiy" sourceRef="Activity_043755t" targetRef="Activity_0zfcl56" />
     <bpmn:sequenceFlow id="Flow_0e2uun5" sourceRef="Activity_0zfcl56" targetRef="Gateway_11t6ho0" />

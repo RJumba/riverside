@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "text": "# Riverside Hospital – Initial Consultation Appointment",
+      "type": "text",
+      "layout": {
+        "row": "Row_0y3sif0",
+        "columns": null
+      },
+      "id": "Field_1q38jni"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Consultation Date",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1mglxsm",
+        "columns": null
+      },
+      "id": "Field_14dypl7",
+      "key": "consultationDate"
+    },
+    {
+      "label": "Consultation Time",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0yx3xk7",
+        "columns": null
+      },
+      "id": "Field_1e8otb0",
+      "key": "consultationTime"
+    },
+    {
+      "label": "Specialist Doctor",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1o693aw",
+        "columns": null
+      },
+      "id": "Field_1xu2xuh",
+      "key": "specialistDoctor"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1eu0o2h",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

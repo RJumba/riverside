@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "text": "# Riverside Hospital – Consultation Outcome",
+      "type": "text",
+      "layout": {
+        "row": "Row_1p7fxwe",
+        "columns": null
+      },
+      "id": "Field_0x30m2k"
+    },
+    {
+      "label": "Consultation Notes",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0ltsotj",
+        "columns": null
+      },
+      "id": "Field_1xy043p",
+      "key": "consultationNotes",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Consultation Outcome Summary",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0c6stkj",
+        "columns": null
+      },
+      "id": "Field_1rdkaa3",
+      "key": "consultationOutcomeSummary",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Laboratory Test Required",
+      "values": [
+        {
+          "label": "Required",
+          "value": "value"
+        }
+      ],
+      "type": "checklist",
+      "layout": {
+        "row": "Row_0c6stkj",
+        "columns": null
+      },
+      "id": "Field_0sfrf9b",
+      "key": "labRequired"
+    },
+    {
+      "label": "Laboratory Test Type",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1x1umjn",
+        "columns": null
+      },
+      "id": "Field_1qiiws2",
+      "key": "laboratoryTestType",
+      "conditional": {
+        "hide": "== labRequired = false"
+      }
+    },
+    {
+      "label": "Laboratory Test Reason",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0dxfz7l",
+        "columns": null
+      },
+      "id": "Field_0dwejwo",
+      "key": "textarea_boiz6h",
+      "conditional": {
+        "hide": "== labRequired = false"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1r1z2kt",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}
