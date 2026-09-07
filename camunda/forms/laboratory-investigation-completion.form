@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "text": "# Laboratory Investigation",
+      "type": "text",
+      "layout": {
+        "row": "Row_1ba0mvu",
+        "columns": null
+      },
+      "id": "Field_1bfqo3u"
+    },
+    {
+      "text": "== laboratoryTestType",
+      "type": "text",
+      "layout": {
+        "row": "Row_0qgr11f",
+        "columns": null
+      },
+      "id": "Field_173z7rw"
+    },
+    {
+      "label": "Laboratory investigation completed",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "value"
+        }
+      ],
+      "type": "checklist",
+      "layout": {
+        "row": "Row_1l2v56z",
+        "columns": null
+      },
+      "id": "Field_0hm3qa9",
+      "key": "laboratoryInvestigationCompleted"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0lwbl8l",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

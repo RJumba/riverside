@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "text": "# GP Referral Clarification Received",
+      "type": "text",
+      "layout": {
+        "row": "Row_0f26kra",
+        "columns": null
+      },
+      "id": "Field_1117vzs"
+    },
+    {
+      "text": "== clarificationRequest",
+      "type": "text",
+      "layout": {
+        "row": "Row_0ra18d3",
+        "columns": null
+      },
+      "id": "Field_1rhviz3"
+    },
+    {
+      "label": "I confirm clarification has been received from the GP Practice",
+      "values": [
+        {
+          "label": "Confirm",
+          "value": "value"
+        }
+      ],
+      "type": "checklist",
+      "layout": {
+        "row": "Row_035phdu",
+        "columns": null
+      },
+      "id": "Field_0080z1e",
+      "key": "clarificationReceived",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1ipsjxc",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}

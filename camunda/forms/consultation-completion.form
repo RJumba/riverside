@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "text": "# Specialist Consultation",
+      "type": "text",
+      "layout": {
+        "row": "Row_04p1cjl",
+        "columns": null
+      },
+      "id": "Field_0yk2p3i"
+    },
+    {
+      "text": "# Conduct the specialist consultation with the patient before proceeding.",
+      "type": "text",
+      "layout": {
+        "row": "Row_1nhqfwi",
+        "columns": null
+      },
+      "id": "Field_1udux9m"
+    },
+    {
+      "label": "Consultation completed",
+      "values": [
+        {
+          "label": "Value",
+          "value": "value"
+        }
+      ],
+      "type": "checklist",
+      "layout": {
+        "row": "Row_12rpfeb",
+        "columns": null
+      },
+      "id": "Field_08963p4",
+      "key": "consultationCompleted",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1tprm4n",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}
