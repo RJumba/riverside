@@ -19,7 +19,7 @@
       "id": "Field_1ofyn44"
     },
     {
-      "text": "== string join(missingFields, \", \")",
+      "text": "= string join(missingFields, \", \")",
       "type": "text",
       "layout": {
         "row": "Row_1yln2cy",

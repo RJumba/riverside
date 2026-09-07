@@ -10,7 +10,7 @@
       "id": "Field_1117vzs"
     },
     {
-      "text": "== clarificationRequest",
+      "text": "= clarificationRequest",
       "type": "text",
       "layout": {
         "row": "Row_0ra18d3",

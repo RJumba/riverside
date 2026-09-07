@@ -19,7 +19,7 @@
       "id": "Field_09n5igl"
     },
     {
-      "text": "== labAppointmentReference",
+      "text": "= labAppointmentReference",
       "type": "text",
       "layout": {
         "row": "Row_1dg5wer",
@@ -28,7 +28,7 @@
       "id": "Field_0yn9821"
     },
     {
-      "text": "== labAppointmentDate",
+      "text": "= labAppointmentDate",
       "type": "text",
       "layout": {
         "row": "Row_0m58l3p",
@@ -37,7 +37,7 @@
       "id": "Field_1mhggpt"
     },
     {
-      "text": "== labAppointmentTime",
+      "text": "= labAppointmentTime",
       "type": "text",
       "layout": {
         "row": "Row_19ratok",
@@ -46,7 +46,7 @@
       "id": "Field_08k6tyr"
     },
     {
-      "text": "== laboratoryTestType",
+      "text": "= laboratoryTestType",
       "type": "text",
       "layout": {
         "row": "Row_0ys83uu",
@@ -55,10 +55,10 @@
       "id": "Field_0or5jse"
     },
     {
-      "text": "== labAppointmentConfirmation",
+      "text": "= labAppointmentConfirmation",
       "type": "text",
       "layout": {
-        "row": "Row_1s3o3ao",
+        "row": "Row_1cck3o0",
         "columns": null
       },
       "id": "Field_1iklbbo"

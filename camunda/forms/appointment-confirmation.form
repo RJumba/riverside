@@ -19,7 +19,7 @@
       "id": "Field_16i3bd5"
     },
     {
-      "text": "== appointmentReference",
+      "text": "= appointmentReference",
       "type": "text",
       "layout": {
         "row": "Row_0t7ybsi",
@@ -37,7 +37,7 @@
       "id": "Field_0x1472k"
     },
     {
-      "text": "== appointmentConfirmation",
+      "text": "= appointmentConfirmation",
       "type": "text",
       "layout": {
         "row": "Row_1g7xvzz",
@@ -46,7 +46,7 @@
       "id": "Field_1seln0q"
     },
     {
-      "text": "== consultationDate",
+      "text": "= consultationDate",
       "type": "text",
       "layout": {
         "row": "Row_1g7xvzz",
@@ -55,7 +55,7 @@
       "id": "Field_0kjvqcy"
     },
     {
-      "text": "== consultationTime",
+      "text": "= consultationTime",
       "type": "text",
       "layout": {
         "row": "Row_1g7xvzz",

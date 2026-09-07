@@ -10,7 +10,7 @@
       "id": "Field_0una42r"
     },
     {
-      "text": "== patientName",
+      "text": "= patientName",
       "type": "text",
       "layout": {
         "row": "Row_1n734nt",
@@ -19,7 +19,7 @@
       "id": "Field_0hdri3g"
     },
     {
-      "text": "== finalClinicalOutcomeSummary",
+      "text": "= finalClinicalOutcomeSummary",
       "type": "text",
       "layout": {
         "row": "Row_1tu1vmn",
@@ -28,7 +28,7 @@
       "id": "Field_170w8ec"
     },
     {
-      "text": "== clinicalPlan",
+      "text": "= clinicalPlan",
       "type": "text",
       "layout": {
         "row": "Row_0on906e",

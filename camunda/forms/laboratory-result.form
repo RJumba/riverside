@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "text": "== laboratoryTestType",
+      "text": "= laboratoryTestType",
       "type": "text",
       "layout": {
         "row": "Row_0v6nm6a",
@@ -10,7 +10,7 @@
       "id": "Field_02tlesq"
     },
     {
-      "text": "== labAppointmentReference",
+      "text": "= labAppointmentReference",
       "type": "text",
       "layout": {
         "row": "Row_0v6nm6a",

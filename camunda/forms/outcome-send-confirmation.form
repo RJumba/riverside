@@ -10,7 +10,7 @@
       "id": "Field_0e5wa3t"
     },
     {
-      "text": "== patientName",
+      "text": "= patientName",
       "type": "text",
       "layout": {
         "row": "Row_1db0u3v",
@@ -28,7 +28,7 @@
       "id": "Field_179v3co"
     },
     {
-      "text": "== finalPatientOutcomeCommunication",
+      "text": "= finalPatientOutcomeCommunication",
       "type": "text",
       "layout": {
         "row": "Row_124n1i4",
@@ -46,7 +46,7 @@
       "id": "Field_0cfh7kv"
     },
     {
-      "text": "== gpPractice",
+      "text": "= gpPractice",
       "type": "text",
       "layout": {
         "row": "Row_0svs6iq",
@@ -64,7 +64,7 @@
       "id": "Field_0bx6i1h"
     },
     {
-      "text": "== referringGP",
+      "text": "= referringGP",
       "type": "text",
       "layout": {
         "row": "Row_0or2o6e",
@@ -82,7 +82,7 @@
       "id": "Field_1beqjil"
     },
     {
-      "text": "== finalGPOutcomeCommunication",
+      "text": "= finalGPOutcomeCommunication",
       "type": "text",
       "layout": {
         "row": "Row_0z38slu",

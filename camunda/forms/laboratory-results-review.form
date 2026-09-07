@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "text": "== laboratoryTestType",
+      "text": "= laboratoryTestType",
       "type": "text",
       "layout": {
         "row": "Row_0wy3k0c",
@@ -10,7 +10,7 @@
       "id": "Field_0dj5ks2"
     },
     {
-      "text": "== laboratoryResultDate",
+      "text": "= laboratoryResultDate",
       "type": "text",
       "layout": {
         "row": "Row_06zse3i",
@@ -19,7 +19,7 @@
       "id": "Field_0b5eby8"
     },
     {
-      "text": "== laboratoryResult",
+      "text": "= laboratoryResult",
       "type": "text",
       "layout": {
         "row": "Row_1qxk34m",

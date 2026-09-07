@@ -37,7 +37,7 @@
       }
     },
     {
-      "text": "== laboratoryTestType",
+      "text": "= laboratoryTestType",
       "type": "text",
       "layout": {
         "row": "Row_1y3exx7",

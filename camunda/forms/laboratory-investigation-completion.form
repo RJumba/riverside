@@ -10,7 +10,7 @@
       "id": "Field_1bfqo3u"
     },
     {
-      "text": "== laboratoryTestType",
+      "text": "= laboratoryTestType",
       "type": "text",
       "layout": {
         "row": "Row_0qgr11f",
