@@ -45,7 +45,6 @@
       },
       "id": "Field_0aqlk8t",
       "key": "finalPatientOutcomeCommunication",
-      "defaultValue": "= draftPatientOutcomeLetter",
       "readonly": false,
       "disabled": false,
       "validate": {
@@ -64,7 +63,6 @@
       "validate": {
         "required": true
       },
-      "defaultValue": "= draftGPOutcomeLetter",
       "readonly": false
     }
   ],

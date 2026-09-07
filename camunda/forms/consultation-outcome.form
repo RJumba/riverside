@@ -37,18 +37,12 @@
     },
     {
       "label": "Laboratory Test Required",
-      "values": [
-        {
-          "label": "Required",
-          "value": "value"
-        }
-      ],
-      "type": "checklist",
+      "type": "checkbox",
       "layout": {
-        "row": "Row_0c6stkj",
+        "row": "Row_0ql6b7o",
         "columns": null
       },
-      "id": "Field_0sfrf9b",
+      "id": "Field_13upw9e",
       "key": "labRequired"
     },
     {

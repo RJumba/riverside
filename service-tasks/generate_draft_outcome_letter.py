@@ -41,8 +41,11 @@ async def generate_draft_outcome_letter(
     )
 
     result = {
-        "draftOutcomeLetter": draft_letter,
-        "outcomeLetterGenerated": True,
+    "draftOutcomeLetter": draft_letter,
+    "finalPatientOutcomeCommunication": draft_letter,
+    "finalGPOutcomeCommunication": draft_letter,
+    "outcomeLetterGenerated": True,
+    "outcomeLetterGenerationMessage": "Draft outcome letter generated successfully",
     }
 
     print("\nDraft outcome letter generated:")
