@@ -16,15 +16,58 @@ async def check_referral_completeness(
     print("\n--------------------------------")
     print("CHECK REFERRAL COMPLETENESS")
     print("--------------------------------")
-    print("Received variables:")
+    print("Received referral variables:")
     print(variables)
 
-    result = {
-        "referralComplete": True,
-        "referralCheckMessage": "Referral completeness check successful",
+    # Required referral fields from Form_0861rxi
+    required_fields = {
+        "patientName": "Patient Name",
+        "nhsNumber": "NHS Number",
+        "dateOfBirth": "Date of Birth",
+        "contactDetails": "Contact Details",
+        "referringGP": "Referring GP",
+        "gpPractice": "GP Practice",
+        "referralReason": "Reason for Referral",
+        "referralPriority": "Referral Priority",
     }
 
-    print("Returning to Camunda:")
+    missing_fields = []
+
+    for key, label in required_fields.items():
+        value = variables.get(key)
+
+        # Treat missing, null or blank values as incomplete
+        if value is None:
+            missing_fields.append(label)
+        elif isinstance(value, str) and not value.strip():
+            missing_fields.append(label)
+        elif isinstance(value, (list, dict)) and len(value) == 0:
+            missing_fields.append(label)
+
+    referral_complete = len(missing_fields) == 0
+
+    if referral_complete:
+        referral_check_message = (
+            "Referral is complete. All required referral information is present."
+        )
+    else:
+        referral_check_message = (
+            "Referral is incomplete. Missing required information: "
+            + ", ".join(missing_fields)
+        )
+
+    result = {
+        "referralComplete": referral_complete,
+        "missingReferralFields": missing_fields,
+        "referralCheckMessage": referral_check_message,
+    }
+
+    print("\nReferral check result:")
+    print(f"referralComplete = {referral_complete}")
+    print(f"missingReferralFields = {missing_fields}")
+    print(f"referralCheckMessage = {referral_check_message}")
+
+    print("\nReturning to Camunda:")
     print(result)
     print("--------------------------------\n")
 
@@ -45,7 +88,7 @@ async def main() -> None:
             callback=check_referral_completeness,
         )
 
-        print("Riverside worker is running.")
+        print("Riverside referral completeness worker is running.")
         print("Waiting for: check-referral-completeness")
         print("Press Ctrl+C to stop the worker.\n")
 
