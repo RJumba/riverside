@@ -291,19 +291,19 @@
     <bpmn:sequenceFlow id="Flow_0e8zqgu" sourceRef="Event_0laecq1" targetRef="Activity_18c6aku" />
     <bpmn:sequenceFlow id="Flow_0dtb5md" sourceRef="Activity_0dfywoa" targetRef="Gateway_1rv8n4w" />
     <bpmn:sequenceFlow id="Flow_1jtl513" name="NO" sourceRef="Gateway_1rv8n4w" targetRef="Activity_0wn0wpm">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== labRequired = false</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= labRequired = false</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_10a8tnc" name="YES" sourceRef="Gateway_1rv8n4w" targetRef="Activity_1ob99pa">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== labRequired = true</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= labRequired = true</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_0vei9dm" sourceRef="Activity_18c6aku" targetRef="Activity_0zfcl56" />
     <bpmn:sequenceFlow id="Flow_0nrqgiy" sourceRef="Activity_043755t" targetRef="Activity_0zfcl56" />
     <bpmn:sequenceFlow id="Flow_0e2uun5" sourceRef="Activity_0zfcl56" targetRef="Gateway_11t6ho0" />
     <bpmn:sequenceFlow id="Flow_1qqmaq3" name="YES" sourceRef="Gateway_11t6ho0" targetRef="Activity_0tipmjt">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== referralComplete = true</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= referralComplete = true</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_00jqayh" name="NO" sourceRef="Gateway_11t6ho0" targetRef="Activity_0cgqjuf">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== referralComplete = false</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= referralComplete = false</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_1kilrd2" sourceRef="Activity_0cgqjuf" targetRef="Activity_0yije8b" />
     <bpmn:sequenceFlow id="Flow_0ah8xl1" sourceRef="Activity_0yije8b" targetRef="Activity_043755t" />
@@ -320,13 +320,13 @@
     <bpmn:sequenceFlow id="Flow_18c737r" sourceRef="Activity_0k3hyho" targetRef="Activity_17si6k2" />
     <bpmn:sequenceFlow id="Flow_0a8rop0" sourceRef="Activity_17si6k2" targetRef="Activity_0xsco0f" />
     <bpmn:sequenceFlow id="Flow_1th2ajg" name="FOLLOW UP" sourceRef="Gateway_0oukj9u" targetRef="Activity_16zjpz5">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== finalOutcomeType = "followUp"</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= finalOutcomeType = "followUp"</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_19f467e" name="TREATMENT" sourceRef="Gateway_0oukj9u" targetRef="Activity_0i076yc">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== finalOutcomeType = "treatment"</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= finalOutcomeType = "treatment"</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_12zwpgr" name="DISCHARGE" sourceRef="Gateway_0oukj9u" targetRef="Gateway_1thbe9v">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== finalOutcomeType = "discharge"</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= finalOutcomeType = "discharge"</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_1306r99" sourceRef="Activity_16zjpz5" targetRef="Gateway_0b2hqkt" />
     <bpmn:sequenceFlow id="Flow_0ews3ze" sourceRef="Activity_0i076yc" targetRef="Gateway_0b2hqkt" />
