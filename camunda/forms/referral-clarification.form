@@ -19,7 +19,7 @@
       "id": "Field_1ofyn44"
     },
     {
-      "text": "= string join(missingFields, \", \")",
+      "text": "= string join(missingReferralFields, \", \")",
       "type": "text",
       "layout": {
         "row": "Row_1yln2cy",
@@ -48,7 +48,7 @@
   "executionPlatformVersion": "8.9.0",
   "exporter": {
     "name": "Camunda Modeler",
-    "version": "5.49.0"
+    "version": "5.51.0"
   },
   "schemaVersion": 19
 }

@@ -40,7 +40,7 @@
         "columns": null
       },
       "id": "Field_1ldjyvt",
-      "key": "laboratoryResult",
+      "key": "labResult",
       "validate": {
         "required": true
       }
