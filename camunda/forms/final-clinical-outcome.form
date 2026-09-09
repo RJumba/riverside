@@ -63,7 +63,7 @@
       "id": "Field_0yl9od7",
       "key": "followUpRequirements",
       "conditional": {
-        "hide": "== finalOutcomeType = \"followUp\""
+        "hide": "= finalOutcomeType != \"followUp\""
       }
     },
     {
@@ -76,7 +76,7 @@
       "id": "Field_1ery0aj",
       "key": "treatmentPlan",
       "conditional": {
-        "hide": "== finalOutcomeType = \"treatment\""
+        "hide": "= finalOutcomeType != \"treatment\""
       }
     },
     {
@@ -89,7 +89,7 @@
       "id": "Field_1t58bxw",
       "key": "dischargeAdvice",
       "conditional": {
-        "hide": "== finalOutcomeType = \"discharge\""
+        "hide": "= finalOutcomeType != \"discharge\""
       }
     }
   ],
@@ -99,7 +99,7 @@
   "executionPlatformVersion": "8.9.0",
   "exporter": {
     "name": "Camunda Modeler",
-    "version": "5.49.0"
+    "version": "5.51.0"
   },
   "schemaVersion": 19
 }

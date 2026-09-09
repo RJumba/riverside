@@ -66,7 +66,7 @@ async def generate_lab_appointment_reference(
 
     result = {
         "labAppointmentReference": lab_appointment_reference,
-        "labAppointmentConfirmationMessage":
+        "labAppointmentConfirmation":
             lab_appointment_confirmation_message,
     }
 

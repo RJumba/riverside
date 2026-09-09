@@ -59,7 +59,7 @@ async def notify_specialist_results_available(
 
     result = {
         "labResultUploaded": True,
-        "specialistResultsAvailable": True,
+        "specialistResultsNotification": True,
         "specialistResultsNotification":
             specialist_results_notification,
     }
