@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="nH2SEu7LS5aGBvxTE2K1">
-    <mxGraphModel dx="3708" dy="4502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2854" dy="4051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1808,7 +1808,7 @@
           <mxGeometry height="90" width="200" x="2910" y="3670" as="geometry" />
         </mxCell>
         <mxCell id="DrdMv432jK_lsWQpJkjQ-251" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;" value="PROVIDE APPOINTMENT AVAILABILITY" vertex="1">
-          <mxGeometry height="90" width="200" x="2830" y="3970" as="geometry" />
+          <mxGeometry height="90" width="200" x="2820" y="3920" as="geometry" />
         </mxCell>
         <mxCell id="DrdMv432jK_lsWQpJkjQ-252" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="PATIENT AVAILABILITY" vertex="1">
           <mxGeometry height="80" width="165" x="2560" y="3930" as="geometry" />
@@ -1829,15 +1829,6 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="3150" y="4260" as="sourcePoint" />
             <mxPoint x="3200" y="4210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DrdMv432jK_lsWQpJkjQ-258" edge="1" parent="1" source="DrdMv432jK_lsWQpJkjQ-251" style="curved=1;endArrow=ERone;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.375;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="DrdMv432jK_lsWQpJkjQ-250" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="2940" y="3790" />
-            </Array>
-            <mxPoint x="2830" y="4030" as="sourcePoint" />
-            <mxPoint x="2880" y="3980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrdMv432jK_lsWQpJkjQ-259" edge="1" parent="1" source="DrdMv432jK_lsWQpJkjQ-254" style="endArrow=open;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;strokeWidth=2;endSize=23;targetPerimeterSpacing=8;" target="DrdMv432jK_lsWQpJkjQ-249" value="">
@@ -1863,10 +1854,10 @@
         <mxCell id="DrdMv432jK_lsWQpJkjQ-262" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=20;" value="TIMELY APPOINTMENT SCHEDULING" vertex="1">
           <mxGeometry height="170" width="200" x="2830" y="4170" as="geometry" />
         </mxCell>
-        <mxCell id="DrdMv432jK_lsWQpJkjQ-263" edge="1" parent="1" source="DrdMv432jK_lsWQpJkjQ-251" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=1;endSize=23;targetPerimeterSpacing=8;entryPerimeter=0;" target="DrdMv432jK_lsWQpJkjQ-262" value="">
+        <mxCell id="DrdMv432jK_lsWQpJkjQ-263" edge="1" parent="1" source="DrdMv432jK_lsWQpJkjQ-251" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;endFill=1;endSize=23;targetPerimeterSpacing=8;entryPerimeter=0;" target="DrdMv432jK_lsWQpJkjQ-262" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="2680" y="4060" />
+              <mxPoint x="2770" y="4100" />
             </Array>
             <mxPoint x="3120" y="3725" as="sourcePoint" />
             <mxPoint x="3301" y="3732" as="targetPoint" />
@@ -1874,7 +1865,7 @@
         </mxCell>
         <mxCell id="DrdMv432jK_lsWQpJkjQ-264" connectable="0" parent="DrdMv432jK_lsWQpJkjQ-263" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=30;" value="+" vertex="1">
           <mxGeometry relative="1" x="0.4562" y="3" as="geometry">
-            <mxPoint x="77" y="16" as="offset" />
+            <mxPoint x="11" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrdMv432jK_lsWQpJkjQ-265" edge="1" parent="1" source="DrdMv432jK_lsWQpJkjQ-269" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;" target="DrdMv432jK_lsWQpJkjQ-262" value="">
@@ -2121,6 +2112,13 @@
             </Array>
             <mxPoint x="-692" y="-2500" as="sourcePoint" />
             <mxPoint x="-535" y="-2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFj8N7Lq8iEqstzYtWk4-20" edge="1" parent="1" source="DrdMv432jK_lsWQpJkjQ-252" style="curved=1;endArrow=ERone;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;endSize=23;targetPerimeterSpacing=8;" target="DrdMv432jK_lsWQpJkjQ-251" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="2930" y="4020" as="sourcePoint" />
+            <mxPoint x="2890" y="4223" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
