@@ -338,7 +338,7 @@
     </bpmn:exclusiveGateway>
     <bpmn:sequenceFlow id="Flow_0q58lyh" sourceRef="Gateway_0yyaf9a" targetRef="Activity_0wn0wpm" />
     <bpmn:sequenceFlow id="Flow_07w78fg" name="NO" sourceRef="Gateway_1rv8n4w" targetRef="Gateway_0yyaf9a">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">== labRequired = false</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">= labRequired = false</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_05ae74q" sourceRef="Activity_112y8m7" targetRef="Gateway_0yyaf9a" />
   </bpmn:process>
@@ -398,8 +398,16 @@
       <bpmn:outgoing>Flow_1mz4d62</bpmn:outgoing>
     </bpmn:userTask>
   </bpmn:process>
-  <bpmn:message id="Message_1cio84l" name="referral-clarification-request" />
-  <bpmn:message id="Message_0gi0rj6" name="final-clinical-outcome" />
+  <bpmn:message id="Message_1cio84l" name="referral-clarification-request">
+    <bpmn:extensionElements>
+      <zeebe:subscription correlationKey="= nhsNumber" />
+    </bpmn:extensionElements>
+  </bpmn:message>
+  <bpmn:message id="Message_0gi0rj6" name="final-clinical-outcome">
+    <bpmn:extensionElements>
+      <zeebe:subscription correlationKey="= nhsNumber" />
+    </bpmn:extensionElements>
+  </bpmn:message>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_08e69tt">
       <bpmndi:BPMNShape id="Participant_0i1fve0_di" bpmnElement="Participant_0i1fve0" isHorizontal="true">
